@@ -25,12 +25,21 @@ const PatientNav = [
   },
   {
     component: CNavItem,
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5e0ae24f0507d847c39c20bbed134d0829fde41e
     name: 'View Reports',
     to: '/ViewReports',
     icon: <CIcon icon={cilSpeedometer} customClassName="nav-icon" />,
   },
   {
     component: CNavItem,
+<<<<<<< HEAD
+=======
+>>>>>>> 872b63d (Doctor Panel Completed)
+>>>>>>> 5e0ae24f0507d847c39c20bbed134d0829fde41e
     name: 'LLM Disease Prediction',
     to: '/LLMDiseasePred',
     icon: <CIcon icon={cilSpeedometer} customClassName="nav-icon" />,

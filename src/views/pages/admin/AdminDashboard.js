@@ -37,7 +37,14 @@ const AdminDashboard = () => {
       <AdminSidebar />
       <div className="wrapper d-flex flex-column min-vh-100">
         <AppHeader />
+<<<<<<< HEAD
         <div className="flex-grow-1">
+=======
+<<<<<<< HEAD
+=======
+        <div className="flex-grow-1">
+>>>>>>> 872b63d (Doctor Panel Completed)
+>>>>>>> 5e0ae24f0507d847c39c20bbed134d0829fde41e
         <div>
           {error && <CAlert color="danger">{error}</CAlert>}
 
@@ -73,7 +80,14 @@ const AdminDashboard = () => {
             </CCardBody>
           </CCard>
         </div>
+<<<<<<< HEAD
         </div>
+=======
+<<<<<<< HEAD
+=======
+        </div>
+>>>>>>> 872b63d (Doctor Panel Completed)
+>>>>>>> 5e0ae24f0507d847c39c20bbed134d0829fde41e
         <AppFooter />
       </div>
     </div>

@@ -40,7 +40,14 @@ const CreateReport = React.lazy(() => import('./views/pages/doctor/CreateReport'
 // Patient Pages
 const PatientLogin = React.lazy(() => import('./views/pages/patient/PatientLogin'))
 const PatientDashboard = React.lazy(() => import('./views/pages/patient/PatientDashboard'))
+<<<<<<< HEAD
 const PatientReport = React.lazy(() => import('./views/pages/patient/PatientReport'))
+=======
+<<<<<<< HEAD
+=======
+const PatientReport = React.lazy(() => import('./views/pages/patient/PatientReport'))
+>>>>>>> 872b63d (Doctor Panel Completed)
+>>>>>>> 5e0ae24f0507d847c39c20bbed134d0829fde41e
 
 // My code Ends Here
 
@@ -105,8 +112,16 @@ const App = () => {
           <Route exact path="/Patientlogin" name="Patientlogin Login Page" element={<PatientLogin />} />
           <Route exact path="/patient/dashboard" name="Patient Dashboard" element={<PatientDashboard />} />
           <Route exact path="/LLMDiseasePred" name="LLM Disease Prediction" element={<LLMDiseasePred />} />
+<<<<<<< HEAD
           <Route exact path="/ViewReports" name="Patient Report" element={<PatientReport />} />
           
+=======
+<<<<<<< HEAD
+=======
+          <Route exact path="/ViewReports" name="Patient Report" element={<PatientReport />} />
+>>>>>>> 872b63d (Doctor Panel Completed)
+
+>>>>>>> 5e0ae24f0507d847c39c20bbed134d0829fde41e
           {/* My Code Ends here */}
           
           {/* <Route path="*" name="Home" element={<DefaultLayout />} /> */}

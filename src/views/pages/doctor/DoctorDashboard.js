@@ -76,7 +76,14 @@ const DoctorDashboard = () => {
       <DoctorSidebar />
       <div className="wrapper d-flex flex-column min-vh-100">
         <AppHeader />
+<<<<<<< HEAD
         <div className="flex-grow-1">
+=======
+<<<<<<< HEAD
+=======
+        <div className="flex-grow-1">
+>>>>>>> 872b63d (Doctor Panel Completed)
+>>>>>>> 5e0ae24f0507d847c39c20bbed134d0829fde41e
         <div className="body flex-grow-1 px-3">
           {error && <CAlert color="danger">{error}</CAlert>}
           
@@ -160,7 +167,14 @@ const DoctorDashboard = () => {
             </CCardBody>
           </CCard>
         </div>
+<<<<<<< HEAD
         </div>
+=======
+<<<<<<< HEAD
+=======
+        </div>
+>>>>>>> 872b63d (Doctor Panel Completed)
+>>>>>>> 5e0ae24f0507d847c39c20bbed134d0829fde41e
         <AppFooter />
       </div>
     </div>

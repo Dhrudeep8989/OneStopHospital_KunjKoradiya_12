@@ -55,6 +55,7 @@ app.post('/login', (req, res) => {
 });
 
 
+<<<<<<< HEAD
 // My Code Start Here
 
 // Patient API
@@ -164,6 +165,8 @@ app.post('/patient/login', (req, res) => {
     }
   });
 });
+=======
+>>>>>>> 5e0ae24f0507d847c39c20bbed134d0829fde41e
 
 // Doctor API
 // Endpoint to handle report downloads
