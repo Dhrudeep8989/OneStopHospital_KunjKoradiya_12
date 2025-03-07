@@ -72,6 +72,10 @@ const CreatePatient = () => {
       <AdminSidebar />
       <div className="wrapper d-flex flex-column min-vh-100">
         <AppHeader />
+<<<<<<< HEAD
+=======
+        <div className="flex-grow-1">
+>>>>>>> 872b63d (Doctor Panel Completed)
         <div className="container mt-4">
           {message && <CAlert color="success">{message}</CAlert>}
           {error && <CAlert color="danger">{error}</CAlert>}
@@ -168,6 +172,10 @@ const CreatePatient = () => {
             </CCardBody>
           </CCard>
         </div>
+<<<<<<< HEAD
+=======
+        </div>
+>>>>>>> 872b63d (Doctor Panel Completed)
         <AppFooter />
       </div>
     </div>
